@@ -116,6 +116,88 @@ nav a:hover {
   border: 1px solid var(--warna-garis);
 }
 
+.kartu > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.baris-isian {
+  margin-bottom: 1rem;
+}
+
+.baris-isian label {
+  display: block;
+  font-weight: 600;
+}
+
+.aksi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.aksi .tombol,
+.aksi .tombol-reset {
+  margin-top: 0;
+}
+
+.tombol-reset {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--warna-garis);
+  border-radius: 4px;
+  background-color: var(--warna-kartu);
+  color: var(--warna-judul);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+.pesan {
+  margin-top: 1rem;
+  color: var(--warna-aksen);
+  font-weight: 600;
+}
+
+.hasil {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.hasil-baris {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--warna-garis);
+  border-radius: 4px;
+  background-color: var(--warna-latar);
+}
+
+.hasil-baris dt {
+  font-weight: 600;
+}
+
+.hasil-baris dd {
+  margin: 0;
+  text-align: right;
+}
+
+.teks-kosong {
+  opacity: 0.7;
+}
+
+.teks-lulus {
+  color: #218838;
+  font-weight: 600;
+}
+
+.teks-remedial {
+  color: var(--warna-aksen);
+  font-weight: 600;
+}
+
 .kartu ul {
   padding-left: 1.2rem;
 }
@@ -289,6 +371,7 @@ nav a:hover {
 .tombol,
 .tombol-tema,
 .tombol-filter,
+.tombol-reset,
 button[type="submit"] {
   transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
@@ -308,6 +391,7 @@ button[type="submit"] {
   .tombol:hover,
   .tombol-tema:hover,
   .tombol-filter:hover,
+  .tombol-reset:hover,
   button[type="submit"]:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(29, 53, 87, 0.16);
