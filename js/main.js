@@ -51,7 +51,7 @@ const proyek = [
   {
     judul: "Halaman Profil Pertama",
     kategori: "HTML",
-    gambar: "img/latihan1.png",
+    gambar: "img/Latihan1.png",
     alt: "Tangkapan layar halaman profil Naufal Ryvan",
     deskripsi: "Halaman web pertama saya, dibuat dengan HTML dasar.",
   },
